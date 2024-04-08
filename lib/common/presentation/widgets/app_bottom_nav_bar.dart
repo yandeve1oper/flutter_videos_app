@@ -9,12 +9,12 @@ class AppBottomNavBar extends BottomNavigationBar {
   static List<BottomNavigationBarItem> get _navItems => [
         BottomNavigationBarItem(
           icon: const Icon(Icons.home),
-          activeIcon: const Icon(Icons.home, color: Colors.blue),
+          activeIcon: const Icon(Icons.home, color: Colors.purple),
           label: HomePages.root.title,
         ),
         BottomNavigationBarItem(
           icon: const Icon(Icons.account_circle),
-          activeIcon: const Icon(Icons.account_circle, color: Colors.blue),
+          activeIcon: const Icon(Icons.account_circle, color: Colors.purple),
           label: HomePages.profile.title,
         ),
       ];

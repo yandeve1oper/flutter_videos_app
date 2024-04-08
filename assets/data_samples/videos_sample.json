@@ -3,6 +3,7 @@
     "id": "1",
     "title": "Rest in the park",
     "description": "Some man is relaxing in the park.",
+    "type": "video",
     "tags": [
       "park",
       "nature",
@@ -13,12 +14,13 @@
       "rest"
     ],
     "category": "nature",
-    "videoUrl": "assets/videos/853751-hd_1920_1080_25fps.mp4"
+    "url": "assets/videos/853751-hd_1920_1080_25fps.mp4"
   },
   {
     "id": "2",
     "title": "Eating",
     "description": "A girl is eating",
+    "type": "video",
     "tags": [
       "food",
       "eat",
@@ -27,23 +29,25 @@
       "feed"
     ],
     "category": "food",
-    "videoUrl": "assets/videos/854105-hd_1920_1080_25fps.mp4"
+    "url": "assets/videos/854105-hd_1920_1080_25fps.mp4"
   },
   {
     "id": "3",
     "title": "Eating",
     "description": "A girl is eating",
+    "type": "video",
     "tags": [
       "cats",
       "animals"
     ],
     "category": "animals",
-    "videoUrl": "assets/videos/855029-hd_1920_1080_30fps.mp4"
+    "url": "assets/videos/855029-hd_1920_1080_30fps.mp4"
   },
   {
     "id": "4",
     "title": "Deep ocean",
     "description": "Deep ocean",
+    "type": "video",
     "tags": [
       "ocean",
       "nature",
@@ -53,12 +57,13 @@
       "water"
     ],
     "category": "nature",
-    "videoUrl": "assets/videos/855436-hd_1920_1080_30fps.mp4"
+    "url": "assets/videos/855436-hd_1920_1080_30fps.mp4"
   },
   {
     "id": "5",
     "title": "Night city life",
     "description": "Take a look at night city",
+    "type": "video",
     "tags": [
       "city",
       "night",
@@ -66,12 +71,13 @@
       "cars"
     ],
     "category": "city",
-    "videoUrl": "assets/videos/1654216-hd_1920_1080_30fps.mp4"
+    "url": "assets/videos/1654216-hd_1920_1080_30fps.mp4"
   },
   {
     "id": "6",
     "title": "Chicago",
     "description": "Take a look at the evening in Chicago",
+    "type": "video",
     "tags": [
       "city",
       "evening",
@@ -79,12 +85,13 @@
       "cars"
     ],
     "category": "city",
-    "videoUrl": "assets/videos/1826904-hd_1920_1080_24fps.mp4"
+    "url": "assets/videos/1826904-hd_1920_1080_24fps.mp4"
   },
   {
     "id": "7",
     "title": "Winter in the forest",
     "description": "Take a look at winter forest",
+    "type": "video",
     "tags": [
       "forest",
       "nature",
@@ -94,12 +101,13 @@
       "snow"
     ],
     "category": "nature",
-    "videoUrl": "assets/videos/1858244-hd_2048_1080_24fps.mp4"
+    "url": "assets/videos/1858244-hd_2048_1080_24fps.mp4"
   },
   {
     "id": "8",
     "title": "Autumn",
     "description": "Take a look at autumn in the city",
+    "type": "video",
     "tags": [
       "nature",
       "autumn",
@@ -109,12 +117,13 @@
       "relax"
     ],
     "category": "city",
-    "videoUrl": "assets/videos/1860079-hd_1920_1080_25fps.mp4"
+    "url": "assets/videos/1860079-hd_1920_1080_25fps.mp4"
   },
   {
     "id": "9",
     "title": "Monkey",
     "description": "Take a look at this funny monkey",
+    "type": "video",
     "tags": [
       "nature",
       "autumn",
@@ -123,12 +132,13 @@
       "grass"
     ],
     "category": "animals",
-    "videoUrl": "assets/videos/2436088-hd_1920_1080_25fps.mp4"
+    "url": "assets/videos/2436088-hd_1920_1080_25fps.mp4"
   },
   {
     "id": "10",
     "title": "Super car",
     "description": "Take a look at this super-car",
+    "type": "video",
     "tags": [
       "cars",
       "people",
@@ -137,12 +147,13 @@
       "grass"
     ],
     "category": "cars",
-    "videoUrl": "assets/videos/3066427-hd_2048_1080_24fps.mp4"
+    "url": "assets/videos/3066427-hd_2048_1080_24fps.mp4"
   },
   {
     "id": "11",
     "title": "Drone movie",
     "description": "Take a look at city",
+    "type": "video",
     "tags": [
       "drone",
       "city",
@@ -153,12 +164,13 @@
       "road"
     ],
     "category": "city",
-    "videoUrl": "assets/videos/3121459-hd_1920_1080_24fps.mp4"
+    "url": "assets/videos/3121459-hd_1920_1080_24fps.mp4"
   },
   {
     "id": "12",
     "title": "Party",
     "description": "Relax with us",
+    "type": "video",
     "tags": [
       "party",
       "people",
@@ -167,12 +179,13 @@
       "activity"
     ],
     "category": "people",
-    "videoUrl": "assets/videos/3188991-hd_1920_1080_25fps.mp4"
+    "url": "assets/videos/3188991-hd_1920_1080_25fps.mp4"
   },
   {
     "id": "13",
     "title": "Waterflow",
     "description": "Beautiful nature",
+    "type": "video",
     "tags": [
       "water",
       "waterflow",
@@ -182,6 +195,6 @@
       "animals"
     ],
     "category": "nature",
-    "videoUrl": "assets/videos/6394054-hd_2048_1024_24fps.mp4"
+    "url": "assets/videos/6394054-hd_2048_1024_24fps.mp4"
   }
 ]
