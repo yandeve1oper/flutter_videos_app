@@ -33,7 +33,7 @@ class ProfilePage extends StatelessWidget {
                 minimumSize: const Size(double.infinity, 48),
                 textStyle: const TextStyle(fontSize: 18),
               ),
-              onPressed: context.read<AuthCubit>().signOut,
+              onPressed: cubit.signOut,
               child: const Text('Sign Out'),
             ),
           ],

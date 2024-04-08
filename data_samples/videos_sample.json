@@ -1,0 +1,187 @@
+[
+  {
+    "id": "1",
+    "title": "Rest in the park",
+    "description": "Some man is relaxing in the park.",
+    "tags": [
+      "park",
+      "nature",
+      "city",
+      "trees",
+      "buildings",
+      "people",
+      "rest"
+    ],
+    "category": "nature",
+    "videoUrl": "assets/videos/853751-hd_1920_1080_25fps.mp4"
+  },
+  {
+    "id": "2",
+    "title": "Eating",
+    "description": "A girl is eating",
+    "tags": [
+      "food",
+      "eat",
+      "people",
+      "rest",
+      "feed"
+    ],
+    "category": "food",
+    "videoUrl": "assets/videos/854105-hd_1920_1080_25fps.mp4"
+  },
+  {
+    "id": "3",
+    "title": "Eating",
+    "description": "A girl is eating",
+    "tags": [
+      "cats",
+      "animals"
+    ],
+    "category": "animals",
+    "videoUrl": "assets/videos/855029-hd_1920_1080_30fps.mp4"
+  },
+  {
+    "id": "4",
+    "title": "Deep ocean",
+    "description": "Deep ocean",
+    "tags": [
+      "ocean",
+      "nature",
+      "pacific",
+      "fishes",
+      "coralls",
+      "water"
+    ],
+    "category": "nature",
+    "videoUrl": "assets/videos/855436-hd_1920_1080_30fps.mp4"
+  },
+  {
+    "id": "5",
+    "title": "Night city life",
+    "description": "Take a look at night city",
+    "tags": [
+      "city",
+      "night",
+      "buildings",
+      "cars"
+    ],
+    "category": "city",
+    "videoUrl": "assets/videos/1654216-hd_1920_1080_30fps.mp4"
+  },
+  {
+    "id": "6",
+    "title": "Chicago",
+    "description": "Take a look at the evening in Chicago",
+    "tags": [
+      "city",
+      "evening",
+      "buildings",
+      "cars"
+    ],
+    "category": "city",
+    "videoUrl": "assets/videos/1826904-hd_1920_1080_24fps.mp4"
+  },
+  {
+    "id": "7",
+    "title": "Winter in the forest",
+    "description": "Take a look at winter forest",
+    "tags": [
+      "forest",
+      "nature",
+      "winter",
+      "trees",
+      "relax",
+      "snow"
+    ],
+    "category": "nature",
+    "videoUrl": "assets/videos/1858244-hd_2048_1080_24fps.mp4"
+  },
+  {
+    "id": "8",
+    "title": "Autumn",
+    "description": "Take a look at autumn in the city",
+    "tags": [
+      "nature",
+      "autumn",
+      "cars",
+      "trees",
+      "city",
+      "relax"
+    ],
+    "category": "city",
+    "videoUrl": "assets/videos/1860079-hd_1920_1080_25fps.mp4"
+  },
+  {
+    "id": "9",
+    "title": "Monkey",
+    "description": "Take a look at this funny monkey",
+    "tags": [
+      "nature",
+      "autumn",
+      "mokey",
+      "relax",
+      "grass"
+    ],
+    "category": "animals",
+    "videoUrl": "assets/videos/2436088-hd_1920_1080_25fps.mp4"
+  },
+  {
+    "id": "10",
+    "title": "Super car",
+    "description": "Take a look at this super-car",
+    "tags": [
+      "cars",
+      "people",
+      "mokey",
+      "super",
+      "grass"
+    ],
+    "category": "cars",
+    "videoUrl": "assets/videos/3066427-hd_2048_1080_24fps.mp4"
+  },
+  {
+    "id": "11",
+    "title": "Drone movie",
+    "description": "Take a look at city",
+    "tags": [
+      "drone",
+      "city",
+      "buildings",
+      "cars",
+      "life",
+      "trees",
+      "road"
+    ],
+    "category": "city",
+    "videoUrl": "assets/videos/3121459-hd_1920_1080_24fps.mp4"
+  },
+  {
+    "id": "12",
+    "title": "Party",
+    "description": "Relax with us",
+    "tags": [
+      "party",
+      "people",
+      "funny",
+      "life",
+      "activity"
+    ],
+    "category": "people",
+    "videoUrl": "assets/videos/3188991-hd_1920_1080_25fps.mp4"
+  },
+  {
+    "id": "13",
+    "title": "Waterflow",
+    "description": "Beautiful nature",
+    "tags": [
+      "water",
+      "waterflow",
+      "trees",
+      "forest",
+      "relax",
+      "animals"
+    ],
+    "category": "nature",
+    "videoUrl": "assets/videos/6394054-hd_2048_1024_24fps.mp4"
+  }
+]
