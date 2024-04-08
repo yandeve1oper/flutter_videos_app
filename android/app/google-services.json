@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "134907197573",
+    "project_id": "flutter-videos-app",
+    "storage_bucket": "flutter-videos-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134907197573:android:8a6d65d3eb6f8145a2d1ec",
+        "android_client_info": {
+          "package_name": "com.ian.flutter_videos_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134907197573-j3kvad070t126ild9q5cpokf88sk6ae7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ian.flutter_videos_app",
+            "certificate_hash": "749c795705c00118db3b31cfc4532e756dc35d7c"
+          }
+        },
+        {
+          "client_id": "134907197573-s617jtt0q3jj02f06dnl7g198tfemuh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDw4L_Ll9A3K19WHizhyfWLhHjKRlz2Vo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134907197573-s617jtt0q3jj02f06dnl7g198tfemuh8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "134907197573-ac97sqsqivhg3g7pphpm99d0gj1lkb13.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ian.flutter-videos-app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
