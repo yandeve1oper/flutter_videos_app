@@ -21,8 +21,8 @@ class ThumbnailService {
     final fileName = await VideoThumbnail.thumbnailFile(
       video: tempVideo.path,
       thumbnailPath: tempDir.path,
-      imageFormat: ImageFormat.PNG,
-      quality: 80,
+      imageFormat: ImageFormat.JPEG,
+      quality: 20,
     );
 
     return fileName;

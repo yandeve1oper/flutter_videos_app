@@ -48,6 +48,7 @@ dependencies:
   video_thumbnail: ^0.5.3
   path_provider: ^2.1.2
   pull_to_refresh: ^2.0.0
+  shimmer: ^3.0.0
 
 dev_dependencies:
   flutter_test:

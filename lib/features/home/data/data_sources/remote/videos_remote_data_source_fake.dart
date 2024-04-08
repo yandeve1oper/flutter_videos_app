@@ -22,12 +22,12 @@ class VideosRemoteDataSourceFake implements VideosRemoteDataSource {
       final res = await rootBundle.loadString(
         'assets/data_samples/videos_sample.json',
       );
-      final result = (json.decode(res) as List<dynamic>).sublist(
-        offset,
-        offset + limit,
-      );
+      final List<dynamic> decodedJson = json.decode(res);
+      final edge = offset + limit;
+      final end = edge >= decodedJson.length ? decodedJson.length : edge;
+      final resSublist = decodedJson.sublist(offset, end);
 
-      final mappedList = VideoFileModel.fromJsonList(result).map(
+      final mappedList = VideoFileModel.fromJsonList(resSublist).map(
         (model) async {
           if (model.url != null) {
             final previewPath =

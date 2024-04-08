@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:chewie/chewie.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_videos_app/features/home/presentation/widgets/video_placeholders.dart';
 import 'package:video_player/video_player.dart';
 
 class VideoWidget extends StatefulWidget {
@@ -50,15 +51,9 @@ class VideoWidgetState extends State<VideoWidget> {
     Widget widget;
 
     if (_isInitialized) {
-      widget = AspectRatio(
-        aspectRatio: 16 / 9,
-        child: Chewie(controller: _chewieController!),
-      );
+      widget = Chewie(controller: _chewieController!);
     } else {
-      widget = Container(
-        color: Colors.grey,
-        child: const Icon(Icons.play_circle, size: 66),
-      );
+      widget = const VideoPlaceholer();
     }
 
     return AspectRatio(aspectRatio: 16 / 9, child: widget);
