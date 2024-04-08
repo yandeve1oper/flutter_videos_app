@@ -5,8 +5,8 @@ final GlobalKey<ScaffoldMessengerState> scaffoldMessengerKey =
 
 enum SnackBarMessageType { error, info }
 
-class CustomSnackBar {
-  CustomSnackBar._();
+class AppSnackBar {
+  AppSnackBar._();
 
   static void show(
     String title, {
@@ -27,7 +27,7 @@ class CustomSnackBar {
         backgroundColor = Colors.red;
         break;
       case SnackBarMessageType.info:
-        backgroundColor = Colors.blue;
+        backgroundColor = Colors.primaries.first;
         break;
     }
 

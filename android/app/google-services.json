@@ -7,17 +7,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:134907197573:android:8a6d65d3eb6f8145a2d1ec",
+        "mobilesdk_app_id": "1:134907197573:android:03a4c5ff14bf9402a2d1ec",
         "android_client_info": {
-          "package_name": "com.ian.flutter_videos_app"
+          "package_name": "com.ian.videosApp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "134907197573-j3kvad070t126ild9q5cpokf88sk6ae7.apps.googleusercontent.com",
+          "client_id": "134907197573-7fqpau38ev97kq8h7g9siakenmoh98ko.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.ian.flutter_videos_app",
+            "package_name": "com.ian.videosApp",
             "certificate_hash": "749c795705c00118db3b31cfc4532e756dc35d7c"
           }
         },
@@ -39,10 +39,10 @@
               "client_type": 3
             },
             {
-              "client_id": "134907197573-ac97sqsqivhg3g7pphpm99d0gj1lkb13.apps.googleusercontent.com",
+              "client_id": "134907197573-20hrb1ci8a8fasdl8tk5culm3j13lgpk.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.ian.flutter-videos-app"
+                "bundle_id": "com.ian.videosApp"
               }
             }
           ]
