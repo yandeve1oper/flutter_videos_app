@@ -6,4 +6,11 @@ abstract class VideosRepository {
     required int offset,
     bool fromCache,
   });
+
+  Future<List<VideoFileEntity>?> getRelatedVideos({
+    required int limit,
+    required int offset,
+    required String? id,
+    required String? category,
+  });
 }

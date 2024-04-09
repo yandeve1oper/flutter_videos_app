@@ -1,6 +1,10 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
+import 'package:flutter_videos_app/core/router/pages.dart';
 
 import 'package:flutter_videos_app/features/home/domain/entities/video_entity.dart';
+import 'package:go_router/go_router.dart';
 
 class VideoCard extends StatelessWidget {
   final VideoFileEntity file;
@@ -20,8 +24,8 @@ class VideoCard extends StatelessWidget {
               children: [
                 AspectRatio(
                   aspectRatio: 16 / 9,
-                  child: Image.asset(
-                    file.previewUrl ?? '',
+                  child: Image.file(
+                    File(file.previewUrl ?? ''),
                     fit: BoxFit.cover,
                     cacheHeight: 220,
                   ),
@@ -46,7 +50,11 @@ class VideoCard extends StatelessWidget {
           child: Material(
             color: Colors.transparent,
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                final path = HomePages.getVideoDetailsPathById(file.id ?? '');
+
+                GoRouter.of(context).push(path, extra: file);
+              },
               child: const SizedBox.shrink(),
             ),
           ),

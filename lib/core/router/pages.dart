@@ -12,5 +12,13 @@ class RootPages {
 
 class HomePages {
   static const root = RootPages.home;
+  static const videoDetails = BasePage(
+    path: 'video-details/:id',
+    title: 'Video details',
+  );
+
+  static String getVideoDetailsPathById(String id) =>
+      '${root.path}${videoDetails.path}'.replaceFirst(':id', id);
+
   static const profile = BasePage(path: '/profile', title: 'Profile');
 }

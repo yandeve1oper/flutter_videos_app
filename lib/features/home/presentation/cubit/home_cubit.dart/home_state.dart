@@ -1,16 +1,16 @@
-part of 'videos_cubit.dart';
+part of 'home_cubit.dart';
 
-class VideosState extends Equatable {
+class HomeState extends Equatable {
   final List<VideoFileEntity>? list;
   final bool isLoading;
 
-  const VideosState({this.list, this.isLoading = false});
+  const HomeState({this.list, this.isLoading = false});
 
-  VideosState copyWith({
+  HomeState copyWith({
     List<VideoFileEntity>? list,
     bool? isLoading,
   }) {
-    return VideosState(
+    return HomeState(
       list: list ?? this.list,
       isLoading: isLoading ?? this.isLoading,
     );

@@ -6,15 +6,15 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_videos_app/features/home/domain/entities/video_entity.dart';
 import 'package:flutter_videos_app/features/home/domain/use_cases/get_videos_use_case.dart';
 
-part 'videos_state.dart';
+part 'home_state.dart';
 
-class VideosCubit extends Cubit<VideosState> {
+class HomeCubit extends Cubit<HomeState> {
   final GetVideosUseCase _getVideosUseCase;
 
-  VideosCubit({
+  HomeCubit({
     required GetVideosUseCase getVideosUseCase,
   })  : _getVideosUseCase = getVideosUseCase,
-        super(const VideosState());
+        super(const HomeState());
 
   void _setVideos(List<VideoFileEntity>? value) {
     emit(state.copyWith(list: value));

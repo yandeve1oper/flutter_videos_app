@@ -15,6 +15,7 @@ VideoFileModel _$VideoFileModelFromJson(Map<String, dynamic> json) =>
       description: json['description'] as String?,
       category: json['category'] as String?,
       tags: (json['tags'] as List<dynamic>?)?.map((e) => e as String).toList(),
+      previewUrl: json['previewUrl'] as String?,
     );
 
 Map<String, dynamic> _$VideoFileModelToJson(VideoFileModel instance) =>
@@ -26,6 +27,7 @@ Map<String, dynamic> _$VideoFileModelToJson(VideoFileModel instance) =>
       'description': instance.description,
       'category': instance.category,
       'tags': instance.tags,
+      'previewUrl': instance.previewUrl,
     };
 
 const _$MediaFileTypeEnumMap = {

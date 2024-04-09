@@ -36,7 +36,7 @@ class AppRouter {
         path: RootPages.auth.path,
         builder: (context, state) => const AuthPage(),
       ),
-      HomeRoute(),
+      HomeRoute(rootNavigatorKey: _rootNavigatorKey),
     ],
     errorBuilder: (context, state) => const Scaffold(
       body: Center(

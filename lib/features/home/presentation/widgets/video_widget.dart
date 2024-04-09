@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:chewie/chewie.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_videos_app/features/home/presentation/widgets/video_placeholders.dart';
 import 'package:video_player/video_player.dart';
 
+import 'package:flutter_videos_app/features/home/presentation/widgets/video_placeholders.dart';
+
 class VideoWidget extends StatefulWidget {
-  const VideoWidget({super.key});
+  const VideoWidget({super.key, this.path});
+
+  final String? path;
 
   @override
   State<VideoWidget> createState() => VideoWidgetState();
@@ -25,15 +28,16 @@ class VideoWidgetState extends State<VideoWidget> {
   }
 
   Future<void> _initPlayer() async {
-    _controller = VideoPlayerController.asset(
-      'assets/videos/853751-hd_1920_1080_25fps.mp4',
-    );
+    if (widget.path == null) return;
+
+    _controller = VideoPlayerController.asset(widget.path!);
     await _controller.initialize();
 
     _chewieController = ChewieController(
       videoPlayerController: _controller,
       aspectRatio: 16 / 9,
       deviceOrientationsAfterFullScreen: [DeviceOrientation.portraitUp],
+      errorBuilder: (_, __) => const VideoPlaceholer(),
     );
 
     setState(() {});

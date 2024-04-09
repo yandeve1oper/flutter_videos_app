@@ -24,7 +24,12 @@ class VideosRepositoryImpl implements VideosRepository {
         limit: limit,
         offset: offset,
       );
-      final entityList = res.map((e) => e.toEntity());
+
+      if (res == null) {
+        yield null;
+      }
+
+      final entityList = res!.map((e) => e.toEntity());
 
       if (offset == 0) {
         _cachedVideos
@@ -35,6 +40,33 @@ class VideosRepositoryImpl implements VideosRepository {
       yield entityList.toList();
     } catch (e) {
       yield null;
+    }
+  }
+
+  @override
+  Future<List<VideoFileEntity>?> getRelatedVideos({
+    required int limit,
+    required int offset,
+    required String? id,
+    required String? category,
+  }) async {
+    try {
+      final res = await remoteDataSource.fetchRelatedVideos(
+        limit: limit,
+        offset: offset,
+        id: id,
+        category: category,
+      );
+
+      if (res != null) {
+        final entityList = res.map((e) => e.toEntity());
+
+        return entityList.toList();
+      }
+
+      return null;
+    } catch (e) {
+      return null;
     }
   }
 }
